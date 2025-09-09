@@ -1,3 +1,13 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
 .navbar {
   background-color: #fff;
   border-bottom: 1px solid #0011ff;
@@ -6,7 +16,8 @@
   white-space: nowrap;
 }
 .navbar-nav .nav-link {
-  color: #000 !important;
+  color: #202020 !important;
+  text-align: center;
   padding: 0 12px;
 }
 .navbar-nav .nav-link:hover {
@@ -93,7 +104,7 @@
   text-align: center;
   padding: 25px;
   border-radius: 12px;
-  background: #979797;
+  background: #f6f9ff;
   height: 100%;
 }
 .step-number-1, .step-number-2, .step-number-3, .step-number-4 {
@@ -110,4 +121,21 @@
   margin-bottom: 15px;
   text-align: center !important;
 
+}
+.team-card img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+    .news-card {
+      min-height: 220px;
+    }
+.team-card {
+  text-align: center !important;
+  padding: px;
+  border-radius: 12px;
+  background: #f6f9ff;
+  
 }
