@@ -24,7 +24,7 @@ body {
   color: #0026ff !important;
 }
 .navbar-brand img {
-  width: 28px;
+  width: 40px;
   display: inline-block;
 }
 .navbar-brand {
@@ -68,7 +68,7 @@ body {
   background: #dde4f5e7;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
-.solution-section {
+.about-section {
   background-color: #ffffff;
   border-bottom: 1px solid #dcdcdc;
 }
@@ -81,25 +81,21 @@ body {
   padding: 30px;
   border-radius: 12px;
   background: #d5eaf8e7;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 .feature-box-2 {
   padding: 18px;
   border-radius: 12px;
   background: #d6f8d5e7;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 .feature-box-3 {
   padding: 30px;
   border-radius: 12px;
   background: #f8d5ebe7;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 .feature-box-4 {
   padding: 30px;
   border-radius: 12px;
   background: #ffd5d5e7;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 .step-box {
   display: inline-block;
@@ -124,6 +120,10 @@ body {
   text-align: center !important;
 
 }
+.team-section {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dcdcdc;
+}
 .team-card img {
       width: 120px;
       height: 120px;
@@ -141,9 +141,16 @@ body {
   background: #e7efff;
 
 }
-.section-news .news-card {
-  background: #f6f9ff;
+.section-news {
+  background: #ffffff;
   padding: 20px;
+  border: none;
+  border-radius: 12px;
+  transition: transform 0.3s;  
+  border-bottom: 1px solid #e3f0ff;
+}
+.news-card {
+  background: #f1f8ff;
   border: none;
   border-radius: 12px;
   transition: transform 0.3s;
@@ -183,7 +190,7 @@ body {
       transition: 0.3s;
     }
     .footer .social-icons a:hover {
-      background: #006e84;
+      background: #00d5ff;
       color: #001344;
     }
 
@@ -195,8 +202,10 @@ body {
       text-align: center;
     }
     .footer-logo {
-      width: 80px;
+      display: block;
+      width: 60px;
       margin-bottom: 15px;
+
     }
 @media (max-width: 768px) {
   .hero {
